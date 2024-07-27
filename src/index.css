@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1C1F28;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FA393A;    /* color of the scroll thumb */
+    border-radius: 3px;       /* roundness of the scroll thumb */
+    border: 1px solid #FA393A;  /* creates padding around scroll thumb */
+  }
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 600;
+}
+h3{
+  font-size: 26px;
+}
+
+.p1{
+  font-size: 19px;
+}
+
+
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 26px
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .p1{
+    font-size: 16px
+  }
+}
